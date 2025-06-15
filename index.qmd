@@ -1,0 +1,5 @@
+# Cayley グラフ入門 {.unnumbered}
+
+このリポジトリは、Cayley グラフの基礎を学ぶための Quarto ブックです。
+
+Quarto の使い方については <https://quarto.org/docs/books> を参照してください。

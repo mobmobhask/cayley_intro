@@ -1,0 +1,62 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Cayley Graph Intro",
+    "section": "",
+    "text": "Cayley グラフ入門\nこのリポジトリは、Cayley グラフの基礎を学ぶための Quarto ブックです。\nQuarto の使い方については https://quarto.org/docs/books を参照してください。",
+    "crumbs": [
+      "Cayley グラフ入門"
+    ]
+  },
+  {
+    "objectID": "intro.html",
+    "href": "intro.html",
+    "title": "1  はじめに",
+    "section": "",
+    "text": "Cayley グラフは、群の構造を視覚的に理解するために利用される図です。ここでは Cayley グラフの概念や基本的な性質について解説します。\n詳しくは文献 Knuth (1984) などを参照してください。\n\n\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>はじめに</span>"
+    ]
+  },
+  {
+    "objectID": "basics.html",
+    "href": "basics.html",
+    "title": "2  Cayley グラフ入門",
+    "section": "",
+    "text": "2.1 定義\nCayley グラフは群の生成元とその演算を視覚的に表現するためのグラフです。ここでは基本的な定義と簡単な例を紹介します。\n与えられた群 \\(G\\) とその生成集合 \\(S\\) について、頂点集合を \\(G\\)、辺集合を \\(\\{(g, gs) \\mid g \\in G, s \\in S\\}\\) とする有向グラフを Cayley グラフ と呼びます。辺には生成元 \\(s\\) がラベル付けされます。",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Cayley グラフ入門</span>"
+    ]
+  },
+  {
+    "objectID": "basics.html#例-整数の加法群",
+    "href": "basics.html#例-整数の加法群",
+    "title": "2  Cayley グラフ入門",
+    "section": "2.2 例: 整数の加法群",
+    "text": "2.2 例: 整数の加法群\nたとえば整数全体 \\(\\mathbb{Z}\\) を生成元 \\(S=\\{+1,-1\\}\\) で考えると、Cayley グラフは無限に伸びる線状のグラフになります。各整数は隣接する整数と辺で結ばれ、それぞれ \\(+1\\) または \\(-1\\) のラベルが付与されます。\nこのように Cayley グラフを用いると、抽象的な群の構造を図形的に理解できます。",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Cayley グラフ入門</span>"
+    ]
+  },
+  {
+    "objectID": "summary.html",
+    "href": "summary.html",
+    "title": "3  まとめ",
+    "section": "",
+    "text": "ここまでに解説した内容を踏まえ、Cayley グラフの基本的な考え方を理解できるようになりました。",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>まとめ</span>"
+    ]
+  },
+  {
+    "objectID": "references.html",
+    "href": "references.html",
+    "title": "References",
+    "section": "",
+    "text": "Knuth, Donald E. 1984. “Literate Programming.” Comput.\nJ. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
+    "crumbs": [
+      "References"
+    ]
+  }
+]

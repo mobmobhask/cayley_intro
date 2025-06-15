@@ -1,0 +1,6 @@
+/.quarto/
+
+# Quarto build output
+docs/
+# Local images
+*.png

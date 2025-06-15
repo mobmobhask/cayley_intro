@@ -40,13 +40,23 @@
     ]
   },
   {
+    "objectID": "visual.html",
+    "href": "visual.html",
+    "title": "3  Cayley グラフをビジュアルで理解する",
+    "section": "",
+    "text": "Cayley グラフを図で表す簡単な方法を紹介します。前ページでは \\(\\mathbb{Z}/3\\mathbb{Z}\\) を例に取りましたが、ここではもう少し複雑なクライン四元群 \\(V_4 \\cong \\mathbb{Z}/2\\mathbb{Z} \\times \\mathbb{Z}/2\\mathbb{Z}\\) を描いてみます。\n\n\n\n\n\nflowchart LR\n    A((0,0)) -- a --&gt; B((1,0))\n    B((1,0)) -- a --&gt; A((0,0))\n    A((0,0)) -- b --&gt; C((0,1))\n    C((0,1)) -- b --&gt; A((0,0))\n    B((1,0)) -- b --&gt; D((1,1))\n    D((1,1)) -- b --&gt; B((1,0))\n    C((0,1)) -- a --&gt; D((1,1))\n    D((1,1)) -- a --&gt; C((0,1))\n\n\n\n\n\n\nこのように、生成元 \\(a=(1,0)\\) と \\(b=(0,1)\\) による二種類の辺を描くことで、群の構造をより視覚的に理解できます。",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Cayley グラフをビジュアルで理解する</span>"
+    ]
+  },
+  {
     "objectID": "summary.html",
     "href": "summary.html",
-    "title": "3  まとめ",
+    "title": "4  まとめ",
     "section": "",
     "text": "ここまでに解説した内容を踏まえ、Cayley グラフの基本的な考え方を理解できるようになりました。",
     "crumbs": [
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>まとめ</span>"
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>まとめ</span>"
     ]
   },
   {
